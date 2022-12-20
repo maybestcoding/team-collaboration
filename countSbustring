@@ -1,0 +1,5 @@
+function countSubstring(string, substring) {
+    let count = string.split(substring).length - 1;
+    return count;
+}
+countSubstring("May was born in May", "May");
