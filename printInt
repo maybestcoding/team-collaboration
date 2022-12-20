@@ -1,0 +1,9 @@
+function printInt(min, max) {
+    let output = [];
+    for (let i = min; i <= max; i++){
+        output.push(i);
+    }
+ return output;
+}
+
+printInt(1,5);
